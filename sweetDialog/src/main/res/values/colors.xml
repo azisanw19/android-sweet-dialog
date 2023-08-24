@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_error_text">#B3261E</color>
+    <color name="dialog_error_button">#F9DEDC</color>
+</resources>

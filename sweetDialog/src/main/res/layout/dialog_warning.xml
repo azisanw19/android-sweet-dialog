@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/normal_margin"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/smaller_margin"
+                android:src="@drawable/ic_warning_dialog" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_title"
+                style="@style/TextAppearance.Material3.TitleMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/warning_dialog"
+                android:textColor="@color/dialog_error_text"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/normal_margin"
+            android:layout_marginVertical="@dimen/normal_margin"
+            android:src="@drawable/img_warning_dialog" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_describe"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/normal_margin"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:layout_marginHorizontal="@dimen/normal_margin"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ThemeOverlay.Material3.Button.TextButton"
+                android:layout_marginEnd="@dimen/smaller_margin"
+                android:text="@string/cancel_dialog" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_confirmation"
+                android:layout_width="wrap_content"
+                style="@style/ThemeOverlay.Material3.Button.ElevatedButton"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smaller_margin"
+                android:textColor="@color/dialog_error_text"
+                android:backgroundTint="@color/dialog_error_button"
+                android:layout_toEndOf="@id/btn_cancel"
+                android:text="@string/ok_dialog" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

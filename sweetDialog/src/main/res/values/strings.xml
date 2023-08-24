@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="are_you_sure_dialog">Are You Sure?</string>
+    <string name="this_action_cannot_be_undone_dialog">This action cannot be undone</string>
+    <string name="ok_dialog">Ok</string>
+    <string name="cancel_dialog">Cancel</string>
+
+    <string name="oops_something_went_wrong_dialog">Oops! Something Went Wrong</string>
+    <string name="close_dialog">Close</string>
+
+    <string name="congratulations_well_done_dialog">Congratulations, Well Done!</string>
+
+    <string name="warning_dialog">Warning!!</string>
+</resources>
