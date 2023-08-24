@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -44,6 +45,17 @@ dependencies {
     implementation("com.google.android.material:material:1.9.0")
     implementation("com.intuit.sdp:sdp-android:1.1.0")
     implementation("com.airbnb.android:lottie:6.1.0")
+}
 
-    implementation("com.github.azisanw19:android-sweet-dialog:0.0.1-alpha03")
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                groupId = "com.can.sweetdialog"
+                artifactId = "android-sweet-dialog"
+                version = "0.0.1-alpha04"
+                artifact("$buildDir/outputs/aar/sdp-android-release.aar")
+            }
+        }
+    }
 }
