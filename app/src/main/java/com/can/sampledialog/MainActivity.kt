@@ -22,10 +22,21 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnDialogConfirmation.setOnClickListener {
             val dialog = DialogConfirmation(this)
-                .setTitle("Logout Account")
+            dialog.setTitle("Logout Account")
                 .setImageDrawable(ContextCompat.getDrawable(this, android.R.drawable.ic_menu_manage))
                 .setDescribe("Lorem ipsum")
-                .show()
+                .setOnNegativeClickListener {
+                    // TODO(on set negative click)
+                }
+                .setOnPositiveClickListener {
+                    // TODO(on set positive click)
+                }
+
+            // for show dialog
+            dialog.show()
+
+            // for dismiss dialog
+            dialog.dismiss()
 
 
         }
