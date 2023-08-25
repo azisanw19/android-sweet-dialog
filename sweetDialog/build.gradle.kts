@@ -47,7 +47,6 @@ dependencies {
     implementation("com.airbnb.android:lottie:6.1.0")
 }
 
-/*
 afterEvaluate {
     publishing {
         publications {
@@ -72,10 +71,10 @@ afterEvaluate {
                     }
                 }
 
-                groupId = "com.can.sweetdialog"
-                artifactId = "android-sweet-dialog"
-                version = "0.0.1-alpha07"
+                groupId = "com.can"
+                artifactId = "sweetdialog"
+                version = "0.0.1-alpha09"
             }
         }
     }
-}*/
+}
