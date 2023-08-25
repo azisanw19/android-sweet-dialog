@@ -71,9 +71,11 @@ afterEvaluate {
                     }
                 }
 
-                groupId = "com.can"
-                artifactId = "sweetdialog"
-                version = "0.0.1-alpha09"
+                groupId = "com.can.sweetdialog"
+                artifactId = "android-sweet-dialog"
+                version = "0.0.1-alpha10"
+
+
             }
         }
     }
