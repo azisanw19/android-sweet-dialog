@@ -73,7 +73,7 @@ afterEvaluate {
 
                 groupId = "com.can.sweetdialog"
                 artifactId = "android-sweet-dialog"
-                version = "0.0.1-alpha05"
+                version = "0.0.1-alpha06"
             }
         }
     }
