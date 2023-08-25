@@ -51,7 +51,7 @@ For Gradle with the Kotlin DSL language
 
 # Documentation
 
-See the [documentation](https://github.com/azisanw19/android-sweet-dialog/wiki) for examples and general use of MPAndroidChart.
+See the [documentation](https://github.com/azisanw19/android-sweet-dialog/wiki) for examples and general use of Sweet Dialog.
 
 # Contributing
 
