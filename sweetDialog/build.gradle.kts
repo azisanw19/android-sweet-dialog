@@ -50,7 +50,7 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("maven") {
+            create<MavenPublication>("release") {
                 pom {
                     name.set("Sweet Dialog")
                     description.set("Sweet Dialog")
@@ -70,6 +70,8 @@ afterEvaluate {
                         }
                     }
                 }
+
+                from(components.findByName("release"))
 
                 groupId = "com.can.sweetdialog"
                 artifactId = "android-sweet-dialog"
