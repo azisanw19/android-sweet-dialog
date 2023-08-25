@@ -73,9 +73,9 @@ afterEvaluate {
 
                 from(components.findByName("release"))
 
-                groupId = "com.can.sweetdialog"
+                groupId = "com.github.azisanw19"
                 artifactId = "android-sweet-dialog"
-                version = "0.0.1-alpha12"
+                version = "0.0.1-alpha13"
 
 
             }
