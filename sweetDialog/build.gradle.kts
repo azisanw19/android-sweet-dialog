@@ -51,10 +51,29 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
+                pom {
+                    name.set("Sweet Dialog")
+                    description.set("Sweet Dialog")
+                    url.set("https://github.com/azisanw19/android-sweet-dialog")
+
+                    licenses {
+                        license {
+                            name.set("The Apache License, Version 2.0")
+                            url.set("https://github.com/azisanw19/android-sweet-dialog/blob/main/LICENSE.txt")
+                        }
+                    }
+                    developers {
+                        developer {
+                            id.set("azisanw19")
+                            name.set("Aziz Anwar")
+                            email.set("azisanw19@gmail.com")
+                        }
+                    }
+                }
+
                 groupId = "com.can.sweetdialog"
                 artifactId = "android-sweet-dialog"
-                version = "0.0.1-alpha04"
-                artifact("$buildDir/outputs/aar/sdp-android-release.aar")
+                version = "0.0.1-alpha05"
             }
         }
     }
