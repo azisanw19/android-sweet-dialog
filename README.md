@@ -1,9 +1,3 @@
-![issues](https://img.shields.io/github/issues/intuit/sdp)
-![Forks](https://img.shields.io/github/forks/intuit/sdp)
-![Stars](https://img.shields.io/github/stars/intuit/sdp)
-![Maven Central](https://img.shields.io/maven-central/v/com.intuit.sdp/sdp-android)
-![License](https://img.shields.io/github/license/intuit/sdp)
-
 # Sweet Dialog
 
 An android lib that provide dialog
