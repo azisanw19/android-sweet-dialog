@@ -30,11 +30,11 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
 
@@ -74,8 +74,8 @@ afterEvaluate {
                 from(components.findByName("release"))
 
                 groupId = "com.github.azisanw19"
-                artifactId = "android-sweet-dialog"
-                version = "0.0.1-alpha13"
+                artifactId = "sweetdialog"
+                version = "0.0.1-alpha14"
 
 
             }
